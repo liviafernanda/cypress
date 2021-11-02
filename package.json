@@ -1,0 +1,22 @@
+{
+  "name": "cypresstest",
+  "version": "1.0.0",
+  "description": "Realização de teste de aceitação sem a utilização do Cucumber Preprocessor para Cypress.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liviafernanda/cypress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liviafernanda/cypress/issues"
+  },
+  "homepage": "https://github.com/liviafernanda/cypress#readme",
+  "devDependencies": {
+    "cypress": "^8.7.0"
+  }
+}
