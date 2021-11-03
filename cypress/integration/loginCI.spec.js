@@ -34,7 +34,7 @@ describe("Login no Central de intérpretes", function(){
     })
 
     context('And', function(){
-        it('Preenche o cmapo com o email', function(){
+        it('Preenche o campo com o email', function(){
             cy.get(':nth-child(6) > .input-field > label').type("coordenador@gmail.com");
             cy.wait(500);
         })
@@ -71,6 +71,7 @@ describe("Login no Central de intérpretes", function(){
     context('Then', function(){
         it('Entra na tela principal', function(){
             cy.url().should('eq', 'http://200.137.197.197/index.php/Main/boasVindas?lang=pt');
+            cy.screenshot();
         })
     })
 })

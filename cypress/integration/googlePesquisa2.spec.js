@@ -36,6 +36,7 @@ describe('Pesquisa simples Google', function(){
   context('Then', function(){
       it('Tenho acesso a pagina de resultados', function(){
         cy.get('body').contains("Conceito: Teste de Aceitação - CIn UFPE")
+        cy.screenshot();
       })
   })
   
